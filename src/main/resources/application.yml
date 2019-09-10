@@ -1,0 +1,11 @@
+server:
+  port=9000
+
+
+spring:
+  elaticsearch:
+    jest:
+      uris:
+        - http://113.209.119.170:9200/
+      read-timout: 9000
+      connection-timeout: 9000
